@@ -6,7 +6,7 @@ namespace Lesson1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Давай познакомимся! Как тебя зовут?");
+            Console.WriteLine("Давай познакомимся! Напиши мне свое имя?");
             string name = Console.ReadLine();
             Console.WriteLine($"Привет, " + name + ". Сегодня: " + DateTime.Today.ToShortDateString());
             Console.ReadKey();
